@@ -20,7 +20,7 @@ It also provides various useful features such as:
 ## Usage
 
 ```bash
-python3 wepv5.py
+python3 wsam.py
 ```
 
 Simply enter the target URL when prompted.
