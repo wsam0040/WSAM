@@ -1,21 +1,37 @@
-
 # WSAM - Web Security Analyzer Master
 
-WSAM is an open-source tool designed for comprehensive web security testing. It helps detect common vulnerabilities in websites:
+**WSAM** is an advanced open-source tool for comprehensive web security testing. It is designed to detect and analyze a wide range of common vulnerabilities that could affect websites, helping security professionals and enthusiasts identify weaknesses and secure their web applications.
 
-- SQL Injection
-- XSS (Cross-Site Scripting)
-- Command Injection
-- Directory Traversal
-- Open Redirect
+WSAM provides real-time feedback on critical security flaws and detailed insights into various aspects of the web target.
 
-It also provides various useful features such as:
+---
 
-- SSL certificate analysis
-- HTTP header analysis
-- Common port scanning
-- Subdomain enumeration
-- DNS lookup
+## Key Features
+
+### Vulnerability Detection:
+- **SQL Injection**: Identify SQL injection vulnerabilities in your web application's input fields.
+- **Cross-Site Scripting (XSS)**: Detect reflected, stored, and DOM-based XSS vulnerabilities.
+- **Command Injection**: Evaluate the potential for executing arbitrary system commands through user input.
+- **Directory Traversal**: Identify if an attacker can access files outside the web root directory.
+- **Open Redirect**: Detect open redirect vulnerabilities that allow attackers to redirect users to malicious websites.
+
+### Information Gathering:
+- **SSL Certificate Analysis**: Examine the SSL/TLS certificate of the target site for issues like expiration, weak ciphers, or missing validation.
+- **HTTP Header Analysis**: Analyze HTTP headers to identify potential misconfigurations or missing security headers.
+- **Common Port Scanning**: Scan for open ports commonly used by web applications (e.g., HTTP, HTTPS, FTP, SSH).
+- **Subdomain Enumeration**: Identify subdomains associated with the target, which could expose additional vulnerabilities.
+- **DNS Lookup**: Perform DNS lookups to gather details about the domain and its associated IP addresses.
+
+---
+
+## Installation
+
+Clone the tool from GitHub and install the required dependencies:
+
+```bash
+git clone https://github.com/wsam0040/wsam.git
+cd wsam
+pip install -r requirements.txt
 
 ## Usage
 
