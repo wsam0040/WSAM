@@ -35,74 +35,68 @@ Clone the tool using Git:
 git clone https://github.com/wsam0040/wsam.git
 cd wsam
 pip install -r requirements.txt
-
+```
 
 ---
 
-Usage
+## Usage
 
 Run the tool with:
 
+```bash
 python3 wsam.py
+```
 
 You will be prompted to enter a target URL:
 
+```bash
 Enter Target URL (e.g., https://example.com):
+```
 
 The tool will begin analyzing the target and display real-time results.
 
-
 ---
 
-Export Results
+## Export Results
 
 After the scan completes, you will have the option to export all findings to a JSON file for later review or reporting.
 
-
 ---
 
-Requirements
+## Requirements
 
-Python 3.8+
-
-requests
-
-dnspython
-
-termcolor
-
+- Python 3.8+
+- requests
+- dnspython
+- termcolor
 
 Install dependencies using:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
-Legal Disclaimer
+## Legal Disclaimer
 
 > This tool is intended for educational and authorized testing purposes only. Do not use WSAM against any target without explicit permission. Unauthorized use may violate local or international laws.
 
-
-
-
 ---
 
-Contributing
+## Contributing
 
 Feel free to fork the project and submit pull requests. Contributions are welcome!
 
-
 ---
 
-Author
+## Author
 
-Developed by @wsam0040
+Developed by @wsam0040  
 Tool Name: Web Security Analyzer Master (WSAM)
 
-
 ---
 
-License
+## License
 
 This project is licensed under the MIT License.
